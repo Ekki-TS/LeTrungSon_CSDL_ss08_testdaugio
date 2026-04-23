@@ -68,7 +68,6 @@ SELECT
     END AS status_name
 FROM book;
 
--- 2. Hàm hệ thống
 SELECT 
     UPPER(title) AS title_upper,
     TIMESTAMPDIFF(YEAR, publish_date, CURDATE()) AS years_since_publish
