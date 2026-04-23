@@ -69,12 +69,6 @@ SELECT
 FROM book;
 
 SELECT 
-    UPPER(title) AS title_upper,
-    TIMESTAMPDIFF(YEAR, publish_date, CURDATE()) AS years_since_publish
-FROM book;
-
-
-SELECT 
     b.title,
     b.price,
     c.category_name
